@@ -53,7 +53,6 @@ def send_email(subject, html_content):
     msg['To'] = RECIPIENT_EMAIL
     msg['Subject'] = subject
 
-    # Habillage CSS pour un rendu e-mail professionnel
     full_html = f"""
     <!DOCTYPE html>
     <html>
