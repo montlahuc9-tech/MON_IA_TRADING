@@ -28,4 +28,4 @@ jobs:
           SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: python send_brief.py
+       run: python envoyer_brief.py
